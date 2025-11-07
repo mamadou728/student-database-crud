@@ -1,3 +1,9 @@
-# db_config.py - database configuration (placeholder)
-# Update DATABASE_URL as needed for your environment
-DATABASE_URL = "sqlite:///students.db"
+import os
+from dotenv import load_dotenv
+
+# Database configuration
+DATABASE_URL = os.environ.get(
+    'DATABASE_URL',
+    'postgresql://postgres:NewPassword123@localhost:5432/student_db'
+)
+
