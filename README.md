@@ -11,7 +11,7 @@ A simple PostgreSQL CRUD application that manages student records. Includes data
 - **Run Script:** Execute the `db/setup.sql` script to create the `students` table and insert the initial data. You can do this using `psql` or a GUI tool like pgAdmin:
 
   ```sh
-  psql -d your_database_name -f db/setup.sql
+  psql -U postgres -h localhost -d student_db -f db/setup.sql
   ```
 
 ### 2. Application Setup
@@ -126,7 +126,7 @@ It also includes an interactive menu to test each operation.
 2. Run the setup script:
 
    ```bash
-   psql -d student_db -f db/setup.sql
+   psql -U postgres -h localhost -d student_db -f db/setup.sql
    ```
 3. Run the code:
 
