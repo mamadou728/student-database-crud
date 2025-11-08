@@ -41,7 +41,7 @@ A simple PostgreSQL CRUD application that manages student records. Includes data
 
 ## Demonstration Video
 
-[Link to your demonstration video here]
+https://youtu.be/LtI9y2oCBd4
 
 ## Project Overview
 
