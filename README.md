@@ -121,7 +121,7 @@ It also includes an interactive menu to test each operation.
 1. Create a database:
 
    ```bash
-   createdb student_db
+   createdb -U postgres -h localhost student_db
    ```
 2. Run the setup script:
 
