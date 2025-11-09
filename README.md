@@ -8,7 +8,7 @@ A simple PostgreSQL CRUD application built with Python. It demonstrates how to p
 
 ## Demo Video
 
-[Watch on YouTube](https://youtu.be/LtI9y2oCBd4)
+[Watch on YouTube](https://youtu.be/PJ12zl1aLjQ)
 
 ---
 
